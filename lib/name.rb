@@ -1,14 +1,16 @@
 class Name
-  attr_reader(:first, :last)
+  attr_reader(:first)
 
-  define_method(:initialize) do |first, last|
-    @first = first
-    @last = last
-   end
 
-   # define_method(:first) do |attributes|
-   #     @first = attributes.fetch(:first)
-   #     @description = attributes.fetch(:description)
-   #
+  define_method(:initialize) do |attributes|
+    @first = attributes.fetch(:first)
+  end
+end
 
- end
+
+    #
+    #   define_method(:initialize) do |first, last|
+    #     @first = first
+    #     @last = last
+    #    end
+    #  end
