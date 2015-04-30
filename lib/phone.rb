@@ -1,11 +1,9 @@
-# class Phone
-#   attr_reader(:number, :type)
-#
-#   define_method(:initialize) do |number, type|
-#     @phone = phone
-#     @type = type
-#    end
-#
-#
-#
-# end
+class Phone
+  attr_reader(:cell, :home, :work)
+
+  define_method(:initialize) do |attributes|
+    @cell = attributes.fetch(:cell)
+    @home = attributes.fetch(:home)
+    @work = attributes.fetch(:work)
+   end
+end

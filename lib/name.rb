@@ -6,11 +6,3 @@ class Name
     @last = attributes.fetch(:last)
   end
 end
-
-
-    #
-    #   define_method(:initialize) do |first, last|
-    #     @first = first
-    #     @last = last
-    #    end
-    #  end
