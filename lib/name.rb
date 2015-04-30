@@ -4,7 +4,6 @@ class Name
   define_method(:initialize) do |first, last|
     @first = first
     @last = last
-    # @name = first.concat( last)
    end
 
    # define_method(:first) do |attributes|

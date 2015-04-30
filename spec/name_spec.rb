@@ -19,12 +19,12 @@ describe('Name') do
   end
 
 
-  # describe('#last') do
-  #   it('returns the contacts last name') do
-  #     test_name = Name.new("Debbie Balbo")
-  #     expect(test_name.last()).to(eq('Balbo'))
-  #    end
-  #  end
+  describe('#last') do
+    it('returns the contacts last name') do
+      test_name = Name.new("Debbie", "Balbo")
+      expect(test_name.last()).to(eq('Balbo'))
+     end
+   end
 
 
 
