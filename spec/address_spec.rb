@@ -1,6 +1,6 @@
 require('rspec')
 require('name')
-require('phone')
+require('email')
 require('address')
 
 describe('Address') do

@@ -1,6 +1,6 @@
 require('rspec')
 require('contact')
-require('phone')
+# require('phone')
 
 # describe('Contact') do
 #   before() do
@@ -11,7 +11,7 @@ require('phone')
 #
 #
 #
-# 
+#
 #
 
   # describe('#first_name') do
